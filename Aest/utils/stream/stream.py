@@ -51,7 +51,7 @@ async def stream(
                 continue
             if str(duration_min) == "None":
                 continue
-            if duration_sec &gt; config.DURATION_LIMIT:
+            if duration_sec > config.DURATION_LIMIT:
                 continue
             if await is_active_chat(chat_id):
                 await put_queue(
@@ -118,7 +118,7 @@ async def stream(
         else:
             link = await AnonyBin(msg)
             lines = msg.count("\n")
-            if lines &gt;= 17:
+            if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
             else:
                 car = msg
