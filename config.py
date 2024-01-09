@@ -29,7 +29,7 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SXK_143")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SXK_Music")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SXK_143")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -58,12 +58,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/49f55e19a1936527a0861.jpg"
+    "START_IMG_URL", "https://graph.org/file/9bb7ffad8a75773498f72.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/40e9877aea42b9a0a69e8.jpg"
+    "PING_IMG_URL", "https://graph.org/file/e337771a9c5e4730aedc5.jpg."
 )
-STATS_IMG_URL = "https://graph.org/file/40e9877aea42b9a0a69e8.jpg"
+STATS_IMG_URL = "https://graph.org/file/8abdf7203defcbaeae7b8.jpg"
 PLAYLIST_IMG_URL = "https://i.pinimg.com/736x/ea/e1/e3/eae1e38f90928b64acf67a85462667ea.jpg"
 TELEGRAM_AUDIO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
 TELEGRAM_VIDEO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
