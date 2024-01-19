@@ -29,8 +29,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SXK_Music")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SXK_143")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BharatMusicUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BharatMusicSupport")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -58,12 +58,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/99ac3f781188a12ff1a13.jpg"
+    "START_IMG_URL", "https://graph.org/file/98496930a33e016edde30.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/99ac3f781188a12ff1a13.jpg."
+    "PING_IMG_URL", "https://graph.org/file/98496930a33e016edde30.jpg."
 )
-STATS_IMG_URL = "https://graph.org/file/99ac3f781188a12ff1a13.jpg"
+STATS_IMG_URL = "https://graph.org/file/98496930a33e016edde30.jpg"
 PLAYLIST_IMG_URL = "https://i.pinimg.com/736x/ea/e1/e3/eae1e38f90928b64acf67a85462667ea.jpg"
 TELEGRAM_AUDIO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
 TELEGRAM_VIDEO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
