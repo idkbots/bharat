@@ -11,6 +11,6 @@
 <p>Yukki(for base codes), AnonX(for upgrading), Ayush(for plugins upgrades)</p>
 
 <h1>Deploy Link For Linux!</h1>
-<code>git clone https://github.com/shauryateam/Newmusic && cd Aest</code>
+<code>git clone https://github.com/Vibeee04/BharatMusic && cd Aest</code>
 
 SUPPORT - [@Life_Codes](https://t.me/Life_codes)
