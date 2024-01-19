@@ -38,7 +38,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/shauryateam/Newmusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/Vibeee04/BharatMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)  # Fill this variable if your upstream repository is private
 
@@ -58,12 +58,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/e337771a9c5e4730aedc5.jpg"
+    "START_IMG_URL", "https://graph.org/file/99ac3f781188a12ff1a13.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/9bb7ffad8a75773498f72.jpg."
+    "PING_IMG_URL", "https://graph.org/file/99ac3f781188a12ff1a13.jpg."
 )
-STATS_IMG_URL = "https://graph.org/file/8abdf7203defcbaeae7b8.jpg"
+STATS_IMG_URL = "https://graph.org/file/99ac3f781188a12ff1a13.jpg"
 PLAYLIST_IMG_URL = "https://i.pinimg.com/736x/ea/e1/e3/eae1e38f90928b64acf67a85462667ea.jpg"
 TELEGRAM_AUDIO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
 TELEGRAM_VIDEO_URL = "https://i.pinimg.com/736x/71/e8/4b/71e84b0169197bece76520e3979cf899.jpg"
