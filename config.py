@@ -20,7 +20,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Allen1:Allen1@cluster0.vapqi
 API_ID = int(getenv("API_ID","19825563")
 API_HASH = getenv("API_HASH","8557e95e0dd37df02d12406639157050")
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQDDhPvORFqUxNuigB5fhy0Jl_fsNrz3o958sJabszqz9GD6WivLYAGyaSmqQxhX1_JG0-8-r-zszunGhZ7g2_8rm-WzFqnTupy6zdn93JjSDRzsfJPMFD-Z0gOYDMb3KdKFo3Q7bi5s-A1-L5gbiID5LMoh7I4DPJP1utpCLmD9bZTymVcJAMkhnuVT7AQ09XAQDRzLOcTjINXVRF6sLj9qf4dN4aPtg2BVgoJraBOPklim70RyC6U8O5txu2ZMzLXJUesUApYQR1D1Bj8e6_tpRlaidwZJGalb597PL9S3sk94Hjuz6wlevsF428VsCxh_7DiCVIPkeWkY35T9cNeHcr5YsgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -29,8 +29,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BharatMusicUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BharatMusicSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StudyXBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/StudyxSupport")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -38,7 +38,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/Vibeee04/BharatMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/idkbots/Bharat")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)  # Fill this variable if your upstream repository is private
 
@@ -79,7 +79,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
+DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:6000000"))
 
 
 if SUPPORT_CHANNEL:
