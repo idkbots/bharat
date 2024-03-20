@@ -8,7 +8,7 @@ load_dotenv()
 
 #Basic-Setup
 OWNER_ID = int(getenv("OWNER_ID","5032100535"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001880014673"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001998462941"))
 
 #Bot-Setup
 BOT_TOKEN = getenv("BOT_TOKEN","6310977936:AAF35Z2OH4KwbGpHpaJzrY2De6komPrzag0")
