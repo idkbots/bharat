@@ -7,18 +7,18 @@ load_dotenv()
 
 
 #Basic-Setup
-OWNER_ID = int(getenv("OWNER_ID","5032100535"))
+OWNER_ID = int(getenv("OWNER_ID", "5032100535"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001998462941"))
 
 #Bot-Setup
-BOT_TOKEN = getenv("BOT_TOKEN","6310977936:AAF35Z2OH4KwbGpHpaJzrY2De6komPrzag0")
+BOT_TOKEN = getenv("BOT_TOKEN", "6310977936:AAF35Z2OH4KwbGpHpaJzrY2De6komPrzag0")
 
 #MongoDB-Setup
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Allen1:Allen1@cluster0.vapqij4.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Allen1:Allen1@cluster0.vapqij4.mongodb.net/?retryWrites=true&w=majority")
 
 #Assistant-Setup
-API_ID = int(getenv("API_ID","19825563")
-API_HASH = getenv("API_HASH","8557e95e0dd37df02d12406639157050")
+API_ID = int(getenv("API_ID", "19825563")
+API_HASH = getenv("API_HASH", "8557e95e0dd37df02d12406639157050")
 
 STRING1 = getenv("STRING_SESSION", "AQDDhPvORFqUxNuigB5fhy0Jl_fsNrz3o958sJabszqz9GD6WivLYAGyaSmqQxhX1_JG0-8-r-zszunGhZ7g2_8rm-WzFqnTupy6zdn93JjSDRzsfJPMFD-Z0gOYDMb3KdKFo3Q7bi5s-A1-L5gbiID5LMoh7I4DPJP1utpCLmD9bZTymVcJAMkhnuVT7AQ09XAQDRzLOcTjINXVRF6sLj9qf4dN4aPtg2BVgoJraBOPklim70RyC6U8O5txu2ZMzLXJUesUApYQR1D1Bj8e6_tpRlaidwZJGalb597PL9S3sk94Hjuz6wlevsF428VsCxh_7DiCVIPkeWkY35T9cNeHcr5YsgA")
 STRING2 = getenv("STRING_SESSION2", None)
