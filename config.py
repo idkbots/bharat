@@ -7,18 +7,18 @@ load_dotenv()
 
 
 #Basic-Setup
-OWNER_ID = int(getenv("OWNER_ID"))
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID","5032100535"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001880014673"))
 
 #Bot-Setup
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","6310977936:AAF35Z2OH4KwbGpHpaJzrY2De6komPrzag0")
 
 #MongoDB-Setup
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Allen1:Allen1@cluster0.vapqij4.mongodb.net/?retryWrites=true&w=majority")
 
 #Assistant-Setup
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","19825563")
+API_HASH = getenv("API_HASH","8557e95e0dd37df02d12406639157050")
 
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
